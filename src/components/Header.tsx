@@ -1,17 +1,14 @@
-import HeaderLeftMenu from "./HeaderLeftMenu"
-import SearchHeader from "./SearchHeader"
+import HeaderLeftMenu from "./HeaderLeftMenu";
+import SearchHeader from "./SearchHeader";
 
+function Header() {
+  return (
+    <header className="header">
+      <HeaderLeftMenu />
 
-function Header(){
-    return(
-        <header className="header">
-
-        <HeaderLeftMenu />
- 
-        <SearchHeader />
- 
-       </header>
-    )
+      <SearchHeader />
+    </header>
+  );
 }
 
-export default Header
+export default Header;

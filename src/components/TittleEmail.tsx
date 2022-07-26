@@ -1,9 +1,9 @@
-function TittleEmail(){
-    return(
-        <div className="title">
-            <h1>Welcome to Flaticon</h1>
-          </div>
-    )
+function TittleEmail() {
+  return (
+    <div className="title">
+      <h1>Welcome to Flaticon</h1>
+    </div>
+  );
 }
 
-export default TittleEmail
+export default TittleEmail;
